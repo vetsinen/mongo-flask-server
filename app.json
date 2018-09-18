@@ -1,0 +1,16 @@
+{
+  "name": "flask on Heroku",
+  "description": "A barebones flask app, which can easily be deployed to Heroku.",
+  "image": "heroku/python",
+  "repository": "https://github.com/vetsinen/flask-heroku",
+  "keywords": ["python", "flask" ],
+  "addons": [ ],
+  "env": {
+  },
+  "environments": {
+    "test": {
+      "scripts": {
+      }
+    }
+  }
+}

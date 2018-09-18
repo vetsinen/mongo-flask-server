@@ -8,8 +8,8 @@ verify_ssl = true
 
 flask = "*"
 gunicorn = "*"
-pymongo = "*"
 flask_cors = "*"
+Flask-PyMongo = "*"
 
 [requires]
 

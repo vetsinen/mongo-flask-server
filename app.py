@@ -23,4 +23,7 @@ def status():
 @application.route('/events')
 @application.route('/events/<string:date>')
 def events(date=nowstr):
-    return jsonify(zzzzzzzz(date))
+    rez=[]
+    for e in mongo.db.events.find({'datestr':date}):
+        rez.append(e)
+    return jsonify(rez)

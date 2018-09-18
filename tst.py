@@ -1,4 +1,4 @@
 from eventsdb import events
 from pprint import pprint
 
-print(events.count())
+print('type '+str(type(events)))

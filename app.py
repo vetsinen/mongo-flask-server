@@ -13,7 +13,7 @@ nowstr = str(datetime.datetime.now())[:10]
 
 @application.route('/')
 def status():
-    return 'Hello, number of events is: ' + events.count()
+    return str(type(events))
 
 
 @application.route('/events')
